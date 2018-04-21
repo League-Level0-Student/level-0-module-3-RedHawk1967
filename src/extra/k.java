@@ -6,7 +6,7 @@ public class k {
 
 	public static void main(String[] args) {
 
-		String Happy = JOptionPane.showInputDialog("Do You Want To Be HAPPY");
+		String Happy = JOptionPane.showInputDialog("Are You HAPPY");
 
 		if (Happy.equalsIgnoreCase("Yes")) {
 			JOptionPane.showMessageDialog(null, "Then Just keep Doing What You Are Doing");
